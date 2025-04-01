@@ -12,8 +12,8 @@ export default function App() {
   );
 }
 
-export function Square() {
-  return <button className="square">1</button>;
+export function Square({ value }) {
+  return <button className="square">{ value }</button>;
 }
 
 export function Board() {
