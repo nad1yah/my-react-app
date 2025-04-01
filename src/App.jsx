@@ -17,7 +17,7 @@ export function Square() {
 
 
   function handleClick() {
-    console.log('clicked!');
+    setValue('X');
   }
 
   return (
